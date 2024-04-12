@@ -1,0 +1,15 @@
+Write a blog on the Difference between Document and windows object?
+    The Document object represents the structure of the web page as a whole and provide the access to the content of the page as well as methods for manipulating that content.
+    It contains information about the content of the page like URL,title, content and the links.
+    The Window object in JS provide the access to the browser history, location, other properties and the method that allows to interact with the browser window.
+    It contains information about the browser window like size, the document window contains and the window history.
+    Windows object is a global object in the JS which is available in all context throughout your code
+    Document is represent the web page that currently loaded in the window. Where the window it represents the current web browser window.  
+    When an HTML document loaded in the web browser it becomes a document object
+    The properties related to documents is stored in document object,
+    where the properties related to windows is strored in window object.
+    Document will be loaded after the loading window because window contains the document, where the windows object will load before the document.
+    It is the root element in the document object model(DOM), where the window is the global element for all the object and the function.
+    Document is the object of the window, where the window is the object of the browser.
+    Where we cannot access the windows object properties indise the document
+    But in the windows object we can access document object properties inside the window.
